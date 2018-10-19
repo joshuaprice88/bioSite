@@ -1,0 +1,7 @@
+font-family: 'Open Sans', sans-serif;
+font-family: 'Covered By Your Grace', cursive;
+
+GreyBlue: #405556
+Grey: #999594
+turqouise: #5cc3c2
+Pink: #d77071

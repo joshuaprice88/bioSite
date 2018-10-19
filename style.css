@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #d77071;
+}
+
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    color: #d77071;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    height: 500px;
+}
+
+#halloween {
+    transform: rotate(90deg);
+}
+
+#selfie {
+    transform: rotate(90deg);
+}
