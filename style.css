@@ -45,6 +45,7 @@ body, html {
 h1 {
     font-family: 'Covered By Your Grace', cursive;
     color: #d77071;
+    text-align: center
 }
 
 h2 {
@@ -60,3 +61,33 @@ img {
     display: inline-block;
 }
 
+#overflow {
+    overflow: hidden;
+    margin: auto;
+    width: 50%;
+}
+
+.early {
+    width: 800px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+.school {
+    width: 800px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+#clear {
+    clear: both;
+}
+
+#pics {
+    margin: auto;
+    width: 78%;
+}
