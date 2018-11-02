@@ -1,3 +1,4 @@
+
 body, html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -12,7 +13,7 @@ body, html {
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: relative;
 }
 
@@ -68,6 +69,13 @@ img {
 }
 
 .early {
+    margin: auto;
+    width: 800px;
+    border: 25px solid grey;
+    padding: 10px;
+}
+
+.center {
     width: 800px;
     border: 25px solid grey;
     padding: 25px;
@@ -76,18 +84,40 @@ img {
 }
 
 .school {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 800px;
     border: 25px solid grey;
-    padding: 25px;
-    margin: 25px;
-    float: left;
+    padding: 10px;
+
 }
 
 #clear {
     clear: both;
 }
 
-#pics {
-    margin: auto;
-    width: 78%;
+* {
+    box-sizing: border-box;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+  }
+  
+.active, .demo:hover {
+    opacity: 1;
+  }
