@@ -15,7 +15,7 @@ body, html {
     height: 45%;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: -75% -75%;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
