@@ -3,19 +3,27 @@ body, html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    background: url(images/background.png);
+    background-position: center;
+    background-attachment: fixed;
 }
+
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main.jpg");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 45%;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: -75% -75%;
     background-repeat: no-repeat;
-    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
+
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -71,16 +79,18 @@ img {
 .early {
     margin: auto;
     width: 800px;
-    border: 25px solid grey;
+    border: 25px solid #5CC3C2;
     padding: 10px;
+    color: white;
 }
 
 .center {
     width: 800px;
-    border: 25px solid grey;
+    border: 25px solid #5CC3C2;
     padding: 25px;
     margin: 25px;
     float: left;
+    color: white;
 }
 
 .school {
@@ -88,8 +98,9 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 800px;
-    border: 25px solid grey;
+    border: 25px solid #5CC3C2;
     padding: 10px;
+    color: white;
 
 }
 
@@ -120,4 +131,14 @@ img {
   
 .active, .demo:hover {
     opacity: 1;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #d77071;
+    text-align: center;
   }
