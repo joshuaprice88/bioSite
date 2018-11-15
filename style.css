@@ -11,15 +11,13 @@ body, html {
 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 45%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/main1.jpg");
+    height: 50%;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+ 
     background-size: cover;
     position: relative;
 }
@@ -79,15 +77,15 @@ img {
 .early {
     margin: auto;
     width: 800px;
-    border: 25px solid #5CC3C2;
-    padding: 10px;
+    border: 15px solid #5CC3C2;
+    padding: 30px;
     color: white;
 }
 
 .center {
     width: 800px;
-    border: 25px solid #5CC3C2;
-    padding: 25px;
+    border: 15px solid #5CC3C2;
+    padding: 30px;
     margin: 25px;
     float: left;
     color: white;
@@ -98,8 +96,8 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 800px;
-    border: 25px solid #5CC3C2;
-    padding: 10px;
+    border: 15px solid #5CC3C2;
+    padding: 30px;
     color: white;
 
 }
